@@ -157,17 +157,31 @@ nav a:hover { color: var(--primary); }
 }
 
 /* Portfolio Placeholder */
+.portfolio {
+    overflow-x: hidden; /* impede scroll fantasma no body */
+}
 .grid-portfolio {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 30px;
+    display: flex;
+    gap: 16px;
+
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+
+    padding-bottom: 10px;
 }
 
-img {
-    width: fit-content;
-    padding: 40px;
-    border-radius: 12px;
-    transition: transform 0.3s;
+/* cada projeto */
+.project-item {
+    flex: 0 0 85%; /* ocupa quase a tela */
+    scroll-snap-align: start;
+}
+
+/* imagem responsiva */
+.project-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px;
 }
 
 .img-logo {
