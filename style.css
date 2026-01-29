@@ -192,4 +192,8 @@ footer {
     .project-item {
         flex: 0 0 40%; /* 🔥 DESKTOP = 40% */
     }
+
+    h1 {
+        font-size: medium;
+    }
 }
