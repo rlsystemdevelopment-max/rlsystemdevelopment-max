@@ -169,6 +169,10 @@ img {
     width: 300px;
 }
 
+.img-logo {
+    width: 100px;
+}
+
 .placeholder-img {
     background: var(--bg-card);
     height: 250px;
