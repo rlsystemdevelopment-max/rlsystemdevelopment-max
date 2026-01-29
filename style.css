@@ -185,6 +185,10 @@ footer {
     margin-top: 20px;
 }
 
+a {
+    color: white;
+}
+
 /* ===============================
    DESKTOP
 ================================ */
@@ -205,5 +209,8 @@ footer {
 
     ul {
         display: none;
+    }
+    .img-logo {
+        width: 120px;
     }
 }
