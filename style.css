@@ -82,6 +82,11 @@ nav a {
     border-radius: 6px;
 }
 
+#btn {
+    color: white;
+    text-decoration: none;
+}
+
 /* ===============================
    HERO
 ================================ */
