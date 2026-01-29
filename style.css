@@ -158,12 +158,9 @@ nav a:hover { color: var(--primary); }
 
 /* Portfolio Placeholder */
 .grid-portfolio {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
 }
 
 img {
