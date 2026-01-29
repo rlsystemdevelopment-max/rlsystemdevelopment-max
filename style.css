@@ -163,6 +163,10 @@ nav a:hover { color: var(--primary); }
     gap: 20px;
 }
 
+img {
+    width: 300px;
+}
+
 .placeholder-img {
     background: var(--bg-card);
     height: 250px;
