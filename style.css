@@ -205,11 +205,8 @@ footer {
     .hero h1 { font-size: 2.5rem; }
     .cta-group { flex-direction: column; }
     nav ul { display: none; } /* Simplificação para o exemplo */
-    .img-logo { width: 100px; }
+    .img-logo { width: 200px; }
     .logo{
         font-size: 1.2rem;
-    }
-    .img-logo {
-        width: 200px;
     }
 }
